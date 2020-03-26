@@ -1,0 +1,29 @@
+{
+    "name": "robwasripped/charliewfh",
+    "description": "Add work from home days in charlie HR in bulk",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rob Treacy",
+            "email": "email@roberttreacy.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "symfony/console": "^4.4"
+    },
+    "replace": {
+        "symfony/polyfill-php73": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Robwasripped\\Charliewfh\\": "src/",
+            "Tests\\Robwasripped\\Charliewfh\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
